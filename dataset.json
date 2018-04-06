@@ -1,0 +1,321 @@
+{
+  "language": "en",
+  "intents": {
+    "bye": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Goodbye "
+            },
+            {
+              "slot_name": "name",
+              "entity": "name",
+              "text": "Dar\u00edo"
+            },
+            {
+              "text": "!"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Bye"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Quit"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Exit"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Goodbye"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "See you later"
+            }
+          ]
+        }
+      ]
+    },
+    "whatsYourName": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "What's your name?"
+            }
+          ]
+        }
+      ]
+    },
+    "where": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Where were you at the moment of the crime?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What was your position at the moment of the crime?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What was your location?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Where did you stay at the moment of the crime?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Where did you stay when the crime happened?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Where were you?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Where were you when the crime happened?"
+            }
+          ]
+        }
+      ]
+    },
+    "who": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Who was with you?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Was there somebody with you?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Have you been with somebody when the crime happened?"
+            }
+          ]
+        }
+      ]
+    },
+    "workplace": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "How do you earn your money?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What's your job?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Where do you work?"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "entities": {
+    "name": {
+      "automatically_extensible": true,
+      "use_synonyms": true,
+      "data": [
+        {
+          "value": "Francisco",
+          "synonyms": []
+        },
+        {
+          "value": "Elvira",
+          "synonyms": []
+        },
+        {
+          "value": "Clara",
+          "synonyms": []
+        },
+        {
+          "value": "Luc\u00eda",
+          "synonyms": []
+        },
+        {
+          "value": "Ernesto",
+          "synonyms": []
+        },
+        {
+          "value": "Juan",
+          "synonyms": []
+        },
+        {
+          "value": "Dar\u00edo",
+          "synonyms": []
+        },
+        {
+          "value": "Adri\u00e1n",
+          "synonyms": []
+        },
+        {
+          "value": "Rebeca",
+          "synonyms": []
+        },
+        {
+          "value": "Roc\u00edo",
+          "synonyms": []
+        },
+        {
+          "value": "Sergio",
+          "synonyms": []
+        },
+        {
+          "value": "Cristina",
+          "synonyms": []
+        },
+        {
+          "value": "Blanca",
+          "synonyms": []
+        },
+        {
+          "value": "Marina",
+          "synonyms": []
+        },
+        {
+          "value": "Jaime",
+          "synonyms": []
+        },
+        {
+          "value": "Iv\u00e1n",
+          "synonyms": []
+        },
+        {
+          "value": "Mario",
+          "synonyms": []
+        },
+        {
+          "value": "Carlos",
+          "synonyms": []
+        },
+        {
+          "value": "Leandro",
+          "synonyms": []
+        },
+        {
+          "value": "Patricia",
+          "synonyms": []
+        },
+        {
+          "value": "Rub\u00e9n",
+          "synonyms": []
+        },
+        {
+          "value": "Santiago",
+          "synonyms": []
+        },
+        {
+          "value": "Andr\u00e9s",
+          "synonyms": []
+        },
+        {
+          "value": "Alejandra",
+          "synonyms": []
+        },
+        {
+          "value": "Laura",
+          "synonyms": []
+        },
+        {
+          "value": "In\u00e9s",
+          "synonyms": []
+        },
+        {
+          "value": "Eduardo",
+          "synonyms": []
+        },
+        {
+          "value": "Dar\u00edo",
+          "synonyms": []
+        }
+      ]
+    },
+    "room": {
+      "automatically_extensible": true,
+      "use_synonyms": true,
+      "data": [
+        {
+          "value": "bedroom",
+          "synonyms": []
+        },
+        {
+          "value": "bathroom",
+          "synonyms": []
+        },
+        {
+          "value": "living room",
+          "synonyms": [
+            " main room"
+          ]
+        },
+        {
+          "value": "kitchen",
+          "synonyms": []
+        },
+        {
+          "value": "hall",
+          "synonyms": []
+        }
+      ]
+    }
+  }
+}

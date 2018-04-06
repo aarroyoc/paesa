@@ -1,0 +1,5 @@
+bedroom
+bathroom
+living room, main room
+kitchen
+hall
